@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Us - Axion Data Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+  body { background: #f5f7fa; color: #333; line-height: 1.6; }
+  nav {
+    background: #003f8a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  nav .logo { font-weight: 700; font-size: 1.4rem; letter-spacing: 1px; }
+  nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  nav .nav-links a:hover {
+    color: #ffdc60;
+  }
+  main {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 0 20px 80px;
+  }
+  h1 {
+    color: #003f8a;
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+  form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #0057b7;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: border-color 0.3s;
+  }
+  input:focus, textarea:focus {
+    border-color: #003f8a;
+    outline: none;
+  }
+  button {
+    background: #ffdc60;
+    color: #003f8a;
+    border: none;
+    padding: 14px 28px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background: #e6c94d;
+  }
+  footer {
+    background: #002e66;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    font-size: 0.9rem;
+    margin-top: 60px;
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Axion Data</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="apply.html">Apply</a>
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+<main>
+  <h1>Contact Us</h1>
+  <form action="thank-you.html" method="post">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required />
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required />
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</main>
+<footer>
+  <p>&copy; 2025 Axion Data Services. Empowering remote workers globally.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FAQ - Axion Data Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+  body { background: #f5f7fa; color: #333; line-height: 1.6; }
+  nav {
+    background: #003f8a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  nav .logo { font-weight: 700; font-size: 1.4rem; letter-spacing: 1px; }
+  nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  nav .nav-links a:hover {
+    color: #ffdc60;
+  }
+  main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px 80px;
+  }
+  h1 {
+    color: #003f8a;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  details {
+    background: white;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    padding: 18px 22px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    cursor: pointer;
+    font-size: 1.05rem;
+    color: #333;
+  }
+  summary {
+    font-weight: 700;
+    outline: none;
+  }
+  summary::-webkit-details-marker {
+    display:none;
+  }
+  details[open] summary::after {
+    content: "▲";
+    float: right;
+    font-size: 1rem;
+  }
+  details summary::after {
+    content: "▼";
+    float: right;
+    font-size: 1rem;
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Axion Data</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="apply.html">Apply</a>
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+<main>
+  <h1>Frequently Asked Questions</h1>
+  <details>
+    <summary>Are the jobs on this site legitimate?</summary>
+    <p>Yes, we carefully vet every job posting to ensure authenticity and avoid scams.</p>
+  </details>
+  <details>
+    <summary>How do I apply for a job?</summary>
+    <p>Simply visit the Jobs page, find a listing you like, and click “Apply Now” to fill out our application form.</p>
+  </details>
+  <details>
+    <summary>Do I need prior experience?</summary>
+    <p>Some jobs may require basic data entry skills. We recommend reading the job descriptions carefully.</p>
+  </details>
+  <details>
+    <summary>Is there an application fee?</summary>
+    <p>No, we do not charge any application or registration fees.</p>
+  </details>
+  <details>
+    <summary>How will I get paid?</summary>
+    <p>Payment methods vary by employer, but popular options include direct deposit, PayPal, or check.</p>
+  </details>
+</main>
+<footer>
+  <p>&copy; 2025 Axion Data Services. Empowering remote workers globally.</p>
+</footer>
+</body>
+</html>
